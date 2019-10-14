@@ -25,11 +25,35 @@
         .clasealineacion1 {
             text-align: right;
         }
-        .variasclases1{
+
+        .variasclases1 {
             color: hotpink;
         }
-        .variasclases2{
+
+        .variasclases2 {
             text-align: center;
+        }
+
+        h1,
+        h2,
+        p {
+            color: green;
+        }
+
+        #colorfondo1{
+            background-color: rgb(139, 3, 71);
+            color: whitesmoke;
+        }
+        .imagenfondo1{
+            background-image: url("img/lenny.jpg");
+        }
+        .imagenfondo2{
+            background-image: url("img/lenny.jpg");
+            width: 80%;
+            height: 600px;
+            margin: 0 auto;
+            background-repeat: no-repeat;
+            background-size: contain;
         }
     </style>
 </head>
@@ -56,10 +80,22 @@
     <p id="parrafocolor1">Este parrafo va a cumplir con un estilo particular. Tiene prioridad sobre el selector de
         elemento </p>
     <p class="clasealineacion1">Este párrafo cumple una clase "clasealineación1".</p>
-        <h2>Aplicar varias clases a un elemento </h2>
+    <h2>Aplicar varias clases a un elemento </h2>
     <div class="variasclases1 variasclases2">
         Capa que cumple varias clases
     </div>
+
+    <h2>Colores de fuente y colores de fondo</h2>
+    <div id="colorfondo1">
+        Esta capa tendrá texto de color blanco y fondo rosa oscuro
+    </div>
+    <h3 style="color: #feafea;">H3 con color establecido mediante código hexadecimal</h3>
+    <h2>Imágenes de fondo</h2>
+    <div class="imagenfondo1">
+        Como la capa no tiene dimensiones solo se va a ver una porción de la imagen, concretamente la adaptada al tamaño del texto. Si no hubiera escrito este texto, la imagen ni se vería.
+    </div>
+    <h2>Trabajo con iamgenes de fondo en capas de tamaño determinado</h2>
+    <div class="imagenfondo2"></div>
 </body>
 
 </html>

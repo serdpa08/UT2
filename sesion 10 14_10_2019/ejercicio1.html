@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +9,57 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
         /* Hoja de estilos interno*/
-        .claseColor{
+        .claseColor {
             color: blueviolet;
         }
-        
 
+        p {
+            text-align: center;
+            color: cyan;
+        }
+
+        #parrafocolor1 {
+            color: goldenrod;
+        }
+
+        .clasealineacion1 {
+            text-align: right;
+        }
+        .variasclases1{
+            color: hotpink;
+        }
+        .variasclases2{
+            text-align: center;
+        }
     </style>
 </head>
+
 <body>
 
     <h1>Sesión 10 UT2</h1>
     <h2>Trabajo con hojas de estilo internas</h2>
     <p class="claseColor">Este párrafo utiliza la clase color que esta definida en una hoja de estilos interna</p>
     <h2>Trabajo con hojas de estilo externas</h2>
-    <p>El span que esta dentro de este párrafo utilizará una <span class="colorhojaexterna">clase implementada en una hoja de estilos externa</span></p>
+    <p>El span que esta dentro de este párrafo utilizará una <span class="colorhojaexterna">clase implementada en una
+            hoja de estilos externa</span></p>
     <h2>Trabajo con estilos aplicados en línea</h2>
     <p>Este párrafo tendrá dentro un <span style="color: chocolate;">span que utilizará un estilo en línea</span></p>
-    <h2>Vamos a probar las prioridades a la hora de aplicar estilos: en línea (de forma directa), de forma interna o de forma externa</h2>
-    <p style="color: red;" class="claseColor">Este párrafo va a tener propiedades que se sobreescriben. Aquí demostramos que el estilo en línea tiene prioridad sobre el estilo en hoja interna</p>
-    <p class="claseColor colorhojaexterna">Pruebo el orden de prioridades entre una hoja de estilos interna y una hoja de estilos externa</p>
+    <h2>Vamos a probar las prioridades a la hora de aplicar estilos: en línea (de forma directa), de forma interna o de
+        forma externa</h2>
+    <p style="color: red;" class="claseColor">Este párrafo va a tener propiedades que se sobreescriben. Aquí demostramos
+        que el estilo en línea tiene prioridad sobre el estilo en hoja interna</p>
+    <p class="claseColor colorhojaexterna">Pruebo el orden de prioridades entre una hoja de estilos interna y una hoja
+        de estilos externa</p>
+    <h2>Selectores</h2>
+    <p>Los elementos que tengan una clase específica tendrán prioridad sobre los selectores generales de elementos, es
+        decir etiquetas</p>
+    <p id="parrafocolor1">Este parrafo va a cumplir con un estilo particular. Tiene prioridad sobre el selector de
+        elemento </p>
+    <p class="clasealineacion1">Este párrafo cumple una clase "clasealineación1".</p>
+        <h2>Aplicar varias clases a un elemento </h2>
+    <div class="variasclases1 variasclases2">
+        Capa que cumple varias clases
+    </div>
 </body>
+
 </html>

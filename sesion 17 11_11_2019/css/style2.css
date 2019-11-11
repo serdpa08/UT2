@@ -33,3 +33,18 @@
     left: 5%;
     z-index: 100;
 }
+
+.propiedadoverflowhidden{
+    height: 300px;
+    overflow: hidden;
+}
+
+.propiedadoverflowauto{
+    height: 300px;
+    overflow: auto;
+}
+
+.propiedadoverflowscroll{
+    height: 300px;
+    overflow: scroll;
+}

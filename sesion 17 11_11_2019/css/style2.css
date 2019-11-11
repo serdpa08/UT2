@@ -1,0 +1,35 @@
+.capaestandarp{
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+.contenedor{
+    width: 90%;
+    min-height: 600px;
+    margin: auto;
+    border: 1 px solid green;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.positionabsolute{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.capa1{
+    position: absolute;
+    background-color: green;
+    top: 40px;
+    z-index: 200;
+}
+
+.capa2{
+    position: absolute;
+    background-color: red;
+    top: 80px;
+    left: 5%;
+    z-index: 100;
+}
